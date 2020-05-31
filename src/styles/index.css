@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.content {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.form {
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 15px -5px rgba(77,77,77,1);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.form__label {
+  margin: 10px;
+}
+
+.form__input {
+  margin: 10px 0;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.form__button {
+  margin: 10px 0;
+  padding: 1rem 2rem;
+  background-color: #4192D2;
+  color: white;
+  font-size: 1rem;
+  border: none;
+}
+
+.form__button:disabled {
+  background-color: gainsboro;
+  color: whitesmoke;
+}
+
+.annotations__header {
+  
+}
+
+.annotations__item {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
