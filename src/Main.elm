@@ -87,7 +87,7 @@ subscriptions _ =
 
 view : Model -> Document Msg
 view model =
-    { title = "Snowpack App"
+    { title = "When I"
     , body = [ pageView model ]
     }
 
